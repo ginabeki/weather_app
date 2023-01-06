@@ -27,7 +27,13 @@ const AppComponents = () => {
           </small>
         </div>
         <div style={{
-          display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '1rem', margin: '1rem',
+          display: 'grid',
+          gridTemplateColumns: '1fr 1fr',
+          gap: '1rem',
+          margin: '1rem',
+          boxShadow: 'rgba(99, 99, 99, 0.2) 0px 2px 8px 0px',
+          backgroundColor: '#fff',
+          padding: '1rem',
         }}
         >
           <div style={{

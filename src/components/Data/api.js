@@ -1,7 +1,6 @@
 /* eslint-disable max-len */
-// import { nanoid } from '@reduxjs/toolkit';
 
-const APP_ID = 'c5e60d49c527e846f710b5b769e46a92';
+const APP_ID = process.env.REACT_APP_API_KEY;
 const AP_BASE_URL = 'https://api.openweathermap.org/data/2.5/air_pollution?';
 const FORCAST_AP_BASE_URL = 'https://api.openweathermap.org/data/2.5/air_pollution/forecast?';
 const GEO_BASE_URL = 'https://api.openweathermap.org/geo/1.0/direct?';

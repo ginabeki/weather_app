@@ -67,7 +67,7 @@ const SearchResults = () => {
     );
   } else if (status === 'failed') {
     content = (
-      <p className="text-red-400 font-Roboto w-full mx-auto text-center">{error}</p>
+      <p style={{ padding: '0.8rem' }}>{error}</p>
     );
   }
 

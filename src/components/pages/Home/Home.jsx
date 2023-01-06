@@ -40,7 +40,10 @@ const Home = () => {
         }}
       >
         <Link to="/">
-          <div style={{ padding: '0.5rem', borderRadius: '4px', border: '1px solid #D16014' }}>
+          <div style={{
+            padding: '0.5rem', borderRadius: '4px', border: '1px solid #D16014', backgroundColor: '#fff',
+          }}
+          >
             <p style={{ color: '#D16014', fontWeight: 'bold' }}>
               BREEZER
             </p>
@@ -71,7 +74,11 @@ const Home = () => {
         <div className=" bg-white rounded-2xl drop-shadow-sm mt-3 pt-4 pb-2 font-Roboto">
           <div className="flex justify-between pb-3 border-b border-solid border-gray-300 px-3">
             <h3 style={{
-              padding: '0.5rem 0.8rem', backgroundColor: '#fff', margin: '1rem 0', borderRadius: '4px',
+              padding: '0.5rem 0.8rem',
+              backgroundColor: '#fff',
+              margin: '1rem 0',
+              borderRadius: '4px',
+              boxShadow: 'rgba(99, 99, 99, 0.2) 0px 2px 8px 0px',
             }}
             >
               Other Major Cities
@@ -79,7 +86,14 @@ const Home = () => {
           </div>
           <div>
             <ul style={{
-              display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '1rem', padding: '1rem', backgroundColor: '#fff', marginBottom: '1rem', borderRadius: '4px',
+              display: 'grid',
+              gridTemplateColumns: '1fr 1fr',
+              gap: '1rem',
+              padding: '1rem',
+              backgroundColor: '#fff',
+              marginBottom: '1rem',
+              borderRadius: '4px',
+              boxShadow: 'rgba(99, 99, 99, 0.2) 0px 2px 8px 0px',
             }}
             >
               {otherLocation.map((location) => (
@@ -106,7 +120,7 @@ const Home = () => {
         to="search"
       >
         <span style={{
-          border: '1px solid #D16014', padding: '0.5rem', borderRadius: '12px', color: 'rgba(0, 0, 0, 0.7)',
+          border: '1px solid #D16014', padding: '0.5rem', borderRadius: '12px', color: 'rgba(0, 0, 0, 0.7)', backgroundColor: '#fff',
         }}
         >
           Search other Locations

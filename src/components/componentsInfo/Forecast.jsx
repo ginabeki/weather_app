@@ -108,7 +108,7 @@ const Forecast = ({ airQuality }) => {
       </div>
     );
   } else if (status === 'failed') {
-    content = <p className="text-red-400 font-Roboto">{error}</p>;
+    content = <p style={{ padding: '0.8rem' }}>{error}</p>;
   }
 
   return <div>{content}</div>;
